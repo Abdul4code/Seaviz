@@ -1,0 +1,132 @@
+.header{
+    padding: 5px 30px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 2px 2px 3px 2px rgb(200, 200, 200);
+    height: 8vh;
+}
+.logo-cont{
+    width: 35px;
+    height: 35px;
+    display: inline;
+    padding: 0px;
+}
+
+.logo-cont img{
+    width: 100%;
+    height: 100%;
+}
+
+.head-text{
+    display: inline;
+    color: rgb(105, 7, 7);
+    width: 50%;
+    padding: 0px;
+    padding-left: 10px;
+    font-family: 'Righteous', cursive;
+    padding-top: 5px;
+    font-weight: bolder;
+    font-size: 20pt;
+    
+}
+
+.visuals, .config {
+    padding: 15px;
+    background-color: rgb(240, 240, 240);
+    height:91vh;
+    margin-top: 5px;
+}
+
+.subsection{
+    padding: 10px;
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.each-chart {
+    width: 15.7%;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 1px 1px 1px 1px grey;
+    cursor: pointer
+}
+
+.each-chart:hover{
+    background-color: rgb(200, 200, 200);
+}
+
+.each-chart img{
+    width: 100%;
+    height: 100%;
+}
+
+.subsection-head{
+    font-size: 14pt;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px;
+}
+
+.dataset-table{
+    height: 45%;
+    overflow-y: scroll;
+}
+
+.table{
+    font-size: 9pt;
+}
+
+.table th{
+    padding: 10px;
+}
+
+.screen-visual{
+    height: 70vh;
+    margin: 15px 0px;
+    border: 1px solid orangered
+}
+
+.code{
+    height: 70px;
+    border: 1px solid orangered
+}
+
+.sub-conf{
+    height: 80vh;
+    overflow: auto;
+    background-color: rgb(250, 250, 250);
+}
+
+.each-conf{
+    border: 1px solid rgb(240, 240, 240);
+    margin: 5px;
+    padding: 10px;
+    font-size: 10pt;
+}
+
+.conf-label{
+    font-weight: bolder;
+    color: rgba(2, 2, 26, 0.9);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conf-desc{
+    margin: 5px 0px;
+    opacity: 0.7;
+    font-size: 9pt;
+}
+
+input[type=text], select, input[type=number], input[type=range]{
+    width: 100%;
+    padding: 5px;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+
+input[type=color]{
+    width: 40px;
+    height: 30px;
+}
