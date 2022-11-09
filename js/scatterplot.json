@@ -1,0 +1,73 @@
+[
+    {
+        "name" : "x",
+        "field" : "select",
+        "values": "columns",
+         "desc" : "Column to be plotted on the x axis",
+         "required": "True"
+    }, 
+    {
+        "name" : "y",
+        "field" : "select",
+        "values": "columns",
+         "desc" : "Column to be plotted on the y axis",
+         "required": "True"
+    },
+
+    {
+        "name" : "hue",
+        "field" : "select",
+        "values": "columns",
+         "desc" : "Column to use in grouping variable that will produce points with different colors",
+         "required": "False",
+        "Default": "None"
+    },
+
+    {
+        "name" : "size",
+        "field" : "select",
+        "values" : "columns",
+         "desc" : "Columns for grouping variable that will produce points with different sizes",
+         "required": "False",
+        "Default": "None"
+    },
+
+    {
+        "name" : "sizes",
+        "field" : "number",
+        "type": "MinMax",
+        "min": 1,
+        "max": 300,
+        "step": 1,
+         "desc" : "Minimum and Maximum numbers for selecting sizes when size variable is used",
+         "required": "False",
+        "Default": "None"
+    },
+
+    {
+        "name" : "style",
+        "field" : "select",
+        "values": "columns",
+         "desc" : "Column to group variable that will produce points with different markers",
+         "required": "False",
+        "Default": "None"
+    },
+
+    {
+        "name" : "palete",
+        "field" : "select",
+        "values": "colors",
+         "desc" : "Choosing the colors to use when mapping the hue semantic.",
+         "required": "False",
+        "Default": "None"
+    },
+
+    {
+        "name" : "legend",
+        "field" : "select",
+        "values": ["auto", "brief", "full", "False"],
+         "desc" : "Method for choosing the colors to use when mapping the hue semantic.",
+         "required": "False",
+        "Default": "None"
+    }
+]

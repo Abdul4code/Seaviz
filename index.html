@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="css/index.css" />
         <!---- JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.js" crossorigin="anonymous"></script>
+        <script src="js/palete.js"></script>
+        <script src="js/plot.js"></script>
     </head>
     <body>
         <div class="container-fluid">
@@ -26,13 +28,13 @@
                     <div class="subsection-head"> Visuals </div>
                     <div class="subsection charts-type">
                         <div class="chart-cont">
-                            <div class="each-chart">
+                            <div class="each-chart" id="scatterplot">
                                 <img src="images/scatter.png" alt="" title="scatter plot">
                             </div>
-                            <div class="each-chart">
+                            <div class="each-chart" id="lineplot">
                                 <img src="images/line.png" alt="" title="Line plot">
                             </div>
-                            <div class="each-chart">
+                            <div class="each-chart" id="barplot">
                                 <img src="images/column.png" alt="" title="Bar Plot">
                             </div>
                             <div class="each-chart">
@@ -143,7 +145,7 @@
                     <div class="subsection screen-visual">
                         
                     </div>
-
+                    <button id="plot"> Plot Chart </button>
                     <div class="subsection-head"> Seaborn Code </div>
                     <div class="subsection code">
                         

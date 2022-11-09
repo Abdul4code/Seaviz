@@ -130,3 +130,12 @@ input[type=color]{
     width: 40px;
     height: 30px;
 }
+
+.active {
+    background-color: rgb(155, 240, 155);
+    border: 1px solid red;
+}
+
+.half {
+    width: 49% !important;
+}
